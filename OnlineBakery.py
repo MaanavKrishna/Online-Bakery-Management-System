@@ -35,8 +35,8 @@ def addinventory():
                 print("Not a valid Option:")
         price = int(input("Enter Price:"))
         qty = int(input("Enter Quantity:"))
-        mfg = int(input("Enter Manufacturing Date(YY/MM/DD):"))
-        exp = int(input("Enter Expiry Date(YY/MM/DD):"))
+        mfg = input("Enter Manufacturing Date(YY/MM/DD):")
+        exp = input("Enter Expiry Date(YY/MM/DD):")
         mycursor.execute("INSERT INTO inventory VALUES(%s, %s, %s, %s, %s)", (itno, itna, itty, price, qty,mfg,exp))
         mydb.commit()
 

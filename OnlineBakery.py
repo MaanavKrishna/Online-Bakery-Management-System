@@ -178,7 +178,7 @@ def ger():
             print("Option does not exist")
 
 while True:
-    op = int(input("--------" * 7 + "Online Bakery Management System" + "--------" * 7 + "\n\nWelcome To FoodBox\n\nMain Menu\n\t1.Admin\n\t2.User\n\t3.Generate Report\n\t4.Exit\nOption:"))
+    op = int(input("--------" * 7 + "Online Bakery Management System" + "--------" * 7 + "\n\nWelcome To Online Bakery Management System\n\nMain Menu\n\t1.Admin\n\t2.User\n\t3.Generate Report\n\t4.Exit\nOption:"))
     if op == 1:
         admin()
     elif op == 2:

@@ -40,7 +40,7 @@ pip install mysql-connector tabulate
 Installation
 	1.	Clone the repository to your local machine:
 
-git clone https://github.com/<your-username>/Online-Bakery-Management-System.git
+git clone https://github.com/MaanavKrishna/Online-Bakery-Management-System.git
 
 
 	2.	Navigate to the project folder:
